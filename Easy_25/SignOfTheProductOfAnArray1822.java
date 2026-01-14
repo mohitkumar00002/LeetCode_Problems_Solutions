@@ -3,18 +3,16 @@ public class SignOfTheProductOfAnArray1822 {
     int[] nums = {-1,-2,-3,-4,3,2,1};
   }
   static int arraySign(int[] nums){
-    int product = 1;
-    for(int i=0;i<nums.length;i++){
-      product *= nums[i];
+    int negCount = 0;
+    for(int num : nums){
+      if(num == 0){
+        return 0;
+      }
+      if(num < 0){
+        negCount++;
+      }
     }
-    if(product < 0){
-      return -1;
-    }
-    else if(product > 0){
-      return 1;
-    }
-    else{
-      return 0;
-    }
+    if(negCount % 2 == 0) return 1;
+    return -1;
   }
 }
