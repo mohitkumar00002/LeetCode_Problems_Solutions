@@ -11,7 +11,7 @@ public class FindTheHighestAltitude_1732 {
   for (int i = 0; i < gain.length; i++) {
     a += gain[i];       // always add gain
     if (a > max) {
-      max = a;          // update highest altitude
+      max = a;         // update highest altitude
     }
   }
   return max;
