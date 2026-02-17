@@ -6,6 +6,7 @@ public class BuildArrayFromPermutation_1920 {
       System.out.println(num + " ");
     }
   }
+  
   static int[] buildArray(int[] nums){
     int n = nums.length;
     int[] ans = new int[n];
