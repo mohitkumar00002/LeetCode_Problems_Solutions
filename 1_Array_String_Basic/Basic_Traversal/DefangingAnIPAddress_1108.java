@@ -6,7 +6,6 @@ public class DefangingAnIPAddress_1108 {
 
   static String defangIPaddress(String add) {
     String defangAdd = "";
-
     for (int i = 0; i < add.length(); i++) {
       if (add.charAt(i) == '.') {
         defangAdd += "[.]";
