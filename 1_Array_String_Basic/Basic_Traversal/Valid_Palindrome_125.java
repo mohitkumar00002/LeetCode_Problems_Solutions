@@ -27,7 +27,6 @@ public class Valid_Palindrome_125 {
           Character.toLowerCase(s.charAt(right))) {
         return false;
       }
-
       left++;
       right--;
     }
