@@ -12,10 +12,12 @@ public class MoveZeros_283 {
         index++;
       }
     }
+
     while (index < nums.length) {
       nums[index] = 0;
       index++;
     }
+    
     for(int num : nums){
       System.out.print(num + " ");
     }
