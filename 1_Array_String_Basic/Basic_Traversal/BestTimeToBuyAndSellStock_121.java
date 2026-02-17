@@ -12,7 +12,8 @@ public class BestTimeToBuyAndSellStock_121 {
 
       if (prices[i] < buy) {
         buy = prices[i];
-      } else {
+      } 
+      else {
         int profit = prices[i] - buy;
         if (profit > maxProfit) {
           maxProfit = profit;
