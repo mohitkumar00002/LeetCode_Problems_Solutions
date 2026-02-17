@@ -18,7 +18,6 @@ public class KidsWithTheGreatestNumberOfCandies_1431{
         max = candies[i];
       }
     }
-
     //  Step 2: result list
     List<Boolean> ans = new ArrayList<>();
 
