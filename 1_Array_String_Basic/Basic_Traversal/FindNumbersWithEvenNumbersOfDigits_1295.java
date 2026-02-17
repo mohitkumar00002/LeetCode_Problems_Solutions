@@ -6,7 +6,6 @@ public class FindNumbersWithEvenNumbersOfDigits_1295 {
 
   static int findNumbers(int[] nums) {
     int numsCount = 0;
-
     for (int i = 0; i < nums.length; i++) {
       int digitsCount = 0;
       int temp = nums[i];
