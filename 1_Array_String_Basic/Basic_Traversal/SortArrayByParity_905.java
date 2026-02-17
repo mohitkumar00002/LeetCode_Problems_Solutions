@@ -16,6 +16,7 @@ public class SortArrayByParity_905 {
         nums[left] = nums[right];
         nums[right] = temp;
       }
+      
       // even hai to left aage badhao
       if(nums[left] % 2 == 0) left++;
 
