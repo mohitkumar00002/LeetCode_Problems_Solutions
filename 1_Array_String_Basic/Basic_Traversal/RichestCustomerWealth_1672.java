@@ -3,6 +3,7 @@ public class RichestCustomerWealth_1672 {
     int[][] accounts = {{2,3,1},{1,1,5},{4,3,1}};
     System.out.println(maximumWealth(accounts));
   }
+  
   static int maximumWealth(int[][] accounts){
     int maxWealth = 0;
     for(int i=0;i<accounts.length;i++){
