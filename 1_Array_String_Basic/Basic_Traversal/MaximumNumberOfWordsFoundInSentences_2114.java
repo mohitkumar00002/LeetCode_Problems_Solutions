@@ -5,7 +5,6 @@ public class MaximumNumberOfWordsFoundInSentences_2114 {
       "i think so too",
       "this is great thanks very much"
     };
-
     System.out.println(mostWordsFound(sentences));
   }
 
