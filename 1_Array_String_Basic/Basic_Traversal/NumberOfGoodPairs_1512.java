@@ -4,8 +4,8 @@
 //   public static void main(String[] args) {
 //     int[] nums = {1,2,3,1,1,3};   // There are 4 good pairs (0,3), (0,4), (3,4), (2,5)
 //     System.out.println(numIdenticalPairs(nums));
-
 //   }
+
 //   static int numIdenticalPairs(int[] nums){
 //     int pairs = 0;
 //     for(int i=0;i<nums.length;i++){
